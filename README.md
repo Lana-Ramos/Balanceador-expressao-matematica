@@ -44,10 +44,7 @@ Este repositório contém um programa desenvolvido para a disciplina de Estrutur
 Antes de iniciar o programa, você vai precisar instalar as seguintes ferramentas na sua máquina:
 
 - **Visual Studio Code**: [Download do VSCode](https://code.visualstudio.com/download)
-- **Compilador para C/C++**: [Download do Compilador](msys2-x86_64-20250221.exe) e no terminal:
-```bash
-$ pacman -S mingw-w64-ucrt-x86_64-gcc
-```
+- **Compilador para C/C++**
 
 ### Dentro do VSCode
 
