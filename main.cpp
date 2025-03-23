@@ -58,7 +58,7 @@ int main()
         // Pergunta se o usuário deseja continuar
         cout << "Deseja verificar outra expressão? (sim/nao): ";
         cin >> resp;
-    }while(resp=="sim" or resp =="Sim");
+    }while(resp=="sim" or resp =="Sim" or resp =="SIM");
 
     return 0;
 }
