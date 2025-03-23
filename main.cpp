@@ -49,7 +49,7 @@ int main()
     {
         // Interação com o usuário
         cout << "\nDigite uma expressao: ";
-        cin >> expressao;
+         getline(cin,expressao);
          // Chama a função e exibe o resultado
         if (verificar_balanceamento(expressao))
             cout << "\nExpressão Balanceada!";
