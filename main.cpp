@@ -48,15 +48,15 @@ int main()
     do
     {
         // Interação com o usuário
-        cout << "Digite uma expressao: ";
+        cout << "\nDigite uma expressao: ";
         cin >> expressao;
          // Chama a função e exibe o resultado
         if (verificar_balanceamento(expressao))
-            cout << "Expressão Balanceada!" << endl;
+            cout << "\nExpressão Balanceada!";
         else
-            cout << "Expressão Não Balanceada!" << endl;
+            cout << "\nExpressão Não Balanceada!";
         // Pergunta se o usuário deseja continuar
-        cout << "Deseja verificar outra expressão? (sim/nao): ";
+        cout << "\nDeseja verificar outra expressão? (sim/nao): ";
         cin >> resp;
     }while(resp=="sim" or resp =="Sim" or resp =="SIM");
 
