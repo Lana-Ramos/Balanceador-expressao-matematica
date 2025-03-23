@@ -107,6 +107,7 @@ $ ./Balanceador-expressao-matematica
 
 - [Lana Ramos](https://github.com/Lana-Ramos)
 - [Pedro Gabriel Ferraz S. Silva](https://github.com/PGFerraz)
+- [Vinicius de Jesus](https://github.com/vinijml)
 
 ---
 
