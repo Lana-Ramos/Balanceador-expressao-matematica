@@ -43,10 +43,21 @@ bool verificar_balanceamento(string expressao)
 
 int main()
 {
+    // Variáveis para armazenar a expressão e a resposta do usuário
     string expressao, resp;
     do
     {
         // Interação com o usuário
+        cout << "Digite uma expressao: ";
+        cin >> expressao;
+         // Chama a função e exibe o resultado
+        if (verificar_balanceamento(expressao))
+            cout << "Expressão Balanceada!" << endl;
+        else
+            cout << "Expressão Não Balanceada!" << endl;
+        // Pergunta se o usuário deseja continuar
+        cout << "Deseja verificar outra expressão? (sim/nao): ";
+        cin >> resp;
     }while(resp=="sim" or resp =="Sim");
 
     return 0;
