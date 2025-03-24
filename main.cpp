@@ -58,6 +58,7 @@ int main()
         // Pergunta se o usuário deseja continuar
         cout << "\nDeseja verificar outra expressão? (sim/nao): ";
         cin >> resp;
+        cin.ignore();
     }while(resp=="sim" or resp =="Sim" or resp =="SIM");
 
     return 0;
